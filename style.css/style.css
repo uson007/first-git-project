@@ -1,0 +1,268 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+#container1 {
+  width: 100%;
+  height: 770px;
+  background-color: white;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.text1 {
+  color: #828282;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+.text1:hover {
+  transform: scale(1.3);
+  color: rgb(176, 131, 16);
+}
+.first-container {
+  display: flex;
+  gap: 158px;
+  align-items: center;
+  padding-top: 30px;
+  width: 980px;
+  padding-bottom: 30px;
+  border: none;
+  border-bottom: 2px solid #e0e0e0;
+  background-color: transparent;
+  outline: none;
+}
+.text {
+  color: #828282;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+}
+.text:hover {
+  transform: scale(1.8);
+}
+.text:hover {
+  color: black;
+}
+.text2 {
+  font-size: 47px;
+}
+.text5 {
+  display: flex;
+  gap: 325px;
+  margin-top: 40px;
+  align-items: center;
+}
+.text3 {
+  font-size: 18px;
+  color: #070707;
+  text-align: center;
+}
+.text4 {
+  font-size: 16px;
+}
+.text6 {
+  display: flex;
+  flex-direction: column;
+}
+.text7 {
+  color: grey;
+}
+.text8 {
+  margin-top: 50px;
+}
+.text8:hover {
+  cursor: pointer;
+  margin-left: 200px;
+  transition: 2s;
+}
+#container2 {
+  width: 100%;
+  height: 502px;
+  background-color: rgb(221, 221, 221);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#container2:hover {
+  cursor: pointer;
+  margin-top: -90px;
+  transition: 2s;
+}
+.text9 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.text9::first-letter {
+  color: rgb(2, 116, 42);
+  font-size: 60px;
+  font-weight: bold;
+}
+.text10 {
+  font-size: 34px;
+  font-weight: 700;
+}
+.text10:hover {
+  color: orange;
+}
+#container3 {
+  width: 100%;
+  height: 502px;
+  background-color: white;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.text11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  gap: 40px;
+}
+.container4 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  transition: 10s;
+}
+#container5 {
+  width: 1445;
+  height: 2253px;
+  background-color: rgb(221, 221, 221);
+  padding-left: 200px;
+  padding-right: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text13:hover {
+  transform: rotate(20deg);
+  cursor: pointer;
+  border: 10px solid red;
+  transition: 2s;
+}
+.text100:hover {
+  transform: scale(0.8);
+  cursor: pointer;
+  border: 15px solid blue;
+  margin-left: 100px;
+  transition: 3s;
+}
+.text100 {
+  margin-top: 80px;
+}
+.text130:hover {
+  margin-top: 80px;
+  transform: rotate(-20deg);
+  cursor: pointer;
+  border: 20px solid greenyellow;
+  transition: 2s;
+}
+.text130 {
+  margin-top: 80px;
+}
+.text12 {
+  font-size: 28px;
+  margin-top: 47px;
+}
+.text13 {
+  margin-top: 80px;
+}
+#container6 {
+  width: 1440px;
+  height: 506px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text18 {
+  margin-top: 90px;
+  font-size: 34px;
+  font-weight: 700;
+}
+.text17 {
+  width: 180px;
+  height: 42px;
+  color: white;
+  background-color: rgb(41, 21, 1);
+  border: none;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 30px;
+}
+.text17:hover{
+  transform: scale(2);
+  transition: 1.5s;
+}
+.text20 {
+    margin-top: 70px;
+    gap: 50px;
+    display: flex;
+}
+.text21 {
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+}
+.text21:hover {
+  color: green;
+}
+.text22 {
+    color: #828282;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+.text24 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.text24::first-letter {
+  color: rgb(129, 5, 148);
+  font-size: 60px;
+  font-weight: bold;
+}
+.text25 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.text25::first-letter {
+  color: rgb(194, 63, 2);
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.text101:hover {
+  cursor: pointer;
+  margin-right: 50px;
+  transition: 2s;
+}
+.text102:hover {
+  cursor: pointer;
+  margin-left: 50px;
+  transition: 2s;
+}
+.text103:hover {
+  cursor: pointer;
+  margin-right: 50px;
+  transition: 2s;
+}
+.text104:hover {
+  cursor: pointer;
+  margin-left: 50px;
+  transition: 2s;
+}
